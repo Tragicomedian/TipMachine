@@ -12,6 +12,7 @@
 		F18834C51C35FF2B00B6C7CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18834C31C35FF2B00B6C7CF /* Main.storyboard */; };
 		F18834C71C35FF2B00B6C7CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18834C61C35FF2B00B6C7CF /* Assets.xcassets */; };
 		F18834CA1C35FF2B00B6C7CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18834C81C35FF2B00B6C7CF /* LaunchScreen.storyboard */; };
+		F18834D21C36091100B6C7CF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18834D11C36091100B6C7CF /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F18834C61C35FF2B00B6C7CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F18834C91C35FF2B00B6C7CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F18834CB1C35FF2B00B6C7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18834D11C36091100B6C7CF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F18834BF1C35FF2B00B6C7CF /* AppDelegate.swift */,
 				F18834C11C35FF2B00B6C7CF /* ViewController.swift */,
 				F18834C31C35FF2B00B6C7CF /* Main.storyboard */,
+				F18834D11C36091100B6C7CF /* SettingsViewController.swift */,
 				F18834C61C35FF2B00B6C7CF /* Assets.xcassets */,
 				F18834C81C35FF2B00B6C7CF /* LaunchScreen.storyboard */,
 				F18834CB1C35FF2B00B6C7CF /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				F18834C21C35FF2B00B6C7CF /* ViewController.swift in Sources */,
 				F18834C01C35FF2B00B6C7CF /* AppDelegate.swift in Sources */,
+				F18834D21C36091100B6C7CF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +253,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NA.TipMachine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,6 +265,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NA.TipMachine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
